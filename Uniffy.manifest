@@ -1,0 +1,23 @@
+{
+	"meta": {
+		"service": "music",
+		"type": "musicsource"
+	},
+	"plugin": {
+		"name": "{{ YOUR PLUGIN NAME }}",
+		"version": "{{ YOUR PLUGIN VERSION }}",
+		"description": "{{ YOUR PLUGIN FULL DESCRIPTION }}",
+		"icon": {
+			"small": "http://address-to-file.com/file.png",
+			"medium": "http://address-to-file.com/file.png",
+			"big": "http://address-to-file.com/file.png"
+		},
+		"cover": {
+			"small": "http://address-to-file.com/file.png",
+			"medium": "http://address-to-file.com/file.png",
+			"big": "http://address-to-file.com/file.png"
+		}
+	},
+	"appRequired": true,
+	"implementation": "src/plugin.js"
+}
